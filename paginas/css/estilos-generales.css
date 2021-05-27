@@ -5,38 +5,24 @@
     font-family: 'KoHo', sans-serif;
 }
 
-.container_links{
-    background-color: rgb(173, 169, 158);
+.header_content-links{
+    padding: 4px;
+    background-color: rgb(38, 38, 38);
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.header_links{ 
+.ul_content-links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.ul_li-links{
     text-decoration: none;
-    width: 120px;
-    text-align: center;
-    color: #fff;
-    border-radius: 4px;
-    background: #838dc9;
-    padding: 8px 8px;
-    margin: 5px 5px;
+    font-weight: 200;
+    font-size: 0px;
+    font-size: 20px;
+    color: rgb(245, 242, 238);
 
-}
-
-.header_links:hover{
-    animation-name: boom;
-    animation-duration: .3s;
-    animation-fill-mode: forwards;
-    animation-timing-function: lcubic-bezier(0.01, 1, 1, 0.99);
-    background: #aab1e5;
-    color: rgb(0, 0, 0);
-}
-
-@keyframes boom{
-    0%{
-        clip-path: circle(36.5% at 50% 50%);
-    }
-    100%{
-        clip-path: circle(71.2% at 50% 50%);
-    }
 }
