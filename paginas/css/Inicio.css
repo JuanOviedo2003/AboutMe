@@ -12,9 +12,13 @@
 }
 
 .content{
-    margin: 15px 20px
+    margin: 15px 40px;
 }
 
 .mi_name{
-    margin: 30px 20px
+    margin: 30px 20px;
+}
+
+a{
+    text-decoration: none;
 }

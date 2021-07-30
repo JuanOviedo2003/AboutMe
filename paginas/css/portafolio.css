@@ -1,0 +1,31 @@
+.css_days{
+    margin: 40px auto;
+    padding: .5rem;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.container_links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links{
+    margin: 5%;
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.day{
+    border-radius: 4px;
+    padding: 7px;
+    background-color: rgb(208, 231, 231);
+}
